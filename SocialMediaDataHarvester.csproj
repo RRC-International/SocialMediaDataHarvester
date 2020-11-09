@@ -42,14 +42,14 @@
     <ApplicationIcon>RRCNew.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common.Logging">
-      <HintPath>..\..\..\..\Visual Studio 2008\Projects\Core Libraries\Assemblies\log4net208-common logging\Common.Logging.dll</HintPath>
+   <Reference Include="Common.Logging">
+      <HintPath>$(SolutionDir)\lib\Common.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Common.Logging.Core">
-      <HintPath>..\..\..\..\Visual Studio 2008\Projects\Core Libraries\Assemblies\log4net208-common logging\Common.Logging.Core.dll</HintPath>
+      <HintPath>$(SolutionDir)\lib\Common.Logging.Core.dll</HintPath>
     </Reference>
     <Reference Include="Common.Logging.Log4Net1215">
-      <HintPath>..\..\..\..\Visual Studio 2008\Projects\Core Libraries\Assemblies\log4net208-common logging\Common.Logging.Log4Net1215.dll</HintPath>
+      <HintPath>$(SolutionDir)\lib\Common.Logging.Log4Net1215.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
